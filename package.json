@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Burnabaso/LoginForm/issues"
   },
-  "homepage": "https://github.com/Burnabaso/LoginForm#readme"
+  "homepage": "https://github.com/Burnabaso/LoginForm#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
 }
