@@ -888,8 +888,20 @@ video {
     display: none;
   }
 
+  .sm\:h-lvh {
+    height: 100lvh;
+  }
+
+  .sm\:h-svh {
+    height: 100svh;
+  }
+
   .sm\:w-4\/5 {
     width: 80%;
+  }
+
+  .sm\:w-full {
+    width: 100%;
   }
 
   .sm\:self-center {
