@@ -9,13 +9,13 @@
     <title>Paws & Feathers Login</title>
 </head>
 <body class="sm:flex">
-    <div id="login-container" class="pt-3 flex sm:self-center sm:mx-auto">
-        <div id="info-section" class="flex flex-wrap justify-center border border-red-600 sm:mx-auto">
+    <div id="login-container" class="mt-2 flex sm:self-center  sm:w-4/5 sm:mx-auto max-w-5xl border-2 border-black shadow-xl ">
+        <div id="info-section" class="flex flex-wrap justify-center  sm:mx-auto sm:pb-6">
             <div class="w-4/5 flex justify-center sm:my-3">
                 <img src="/resources/logo.png" alt="Brand Logo" class="size-10 rounded-lg ">
             </div>
             <h2 class="w-4/5 text-center font-bold text-3xl  ">Welcome back!</h2>
-            <p class="w-2/5 text-center text-xs ">Don't have account yet? <a href="/SourceCode/signup.html" target="_blank" class="underline font-bold ">Register</a></p>
+            <p class="sm:w-4/5 w-2/5 text-center text-xs ">Don't have account yet? <a href="/SourceCode/signup.html" target="_blank" class="underline font-bold ">Register</a></p>
             <div id="social-login" class="w-4/5 flex justify-center gap-3 items-center my-5">
                 <div class="border rounded-full border-slate-400 w-8 h-8 flex justify-center items-center box-border">
                     <a target="_blank" href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Fpli%3D1%26nlr%3D1&ec=GAlAwAE&hl=en&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1710891120%3A1719592507733590&ddm=0">
@@ -44,21 +44,20 @@
                 <div class="flex-grow border-t border-gray-300 h-0 self-center ml-1"></div>
             </div>
             <div id="login-form" class="w-3/5" style="max-width: 353px;">
-                <!-- //TODO: CONTINUE EDITING RESPONSIVE DESIGN -->
                 <form action="#" class="flex flex-col">
                     <label for="email-cont" class="font-bold mb-1">Email</label>
                     <input required type="email" id="email-cont" placeholder="E.g: yourname@domain.com" class="mb-2 peer rounded-full py-1 px-2 w-full ml-2 bg-gray-100 invalid:outline-red-500 valid:outline-green-500">
                     <p class="peer-valid:block hidden text-green-500 w-full ml-4">This seems correct!</p>
                     <label for="passcode" class="font-bold mb-1">Password</label>
-                    <input required type="password" id="passcode" placeholder="Enter your password" class="rounded-full py-1 px-2 w-full ml-2 bg-gray-100 invalid:outline-red-500">
+                    <input required type="password" id="passcode" placeholder="Enter your password" class="rounded-full py-1 px-2 w-full ml-2 bg-gray-100">
                     <span></span>
                     <button id="sign-in-btn" class="bg-black text-white w-4/5 mx-auto rounded-full py-2 text-sm mt-4 mb-3">Sign in</button>
                     <a href="" id="forgot-pass" class="w-4/5 mx-auto underline font-bold text-center text-sm">Forgot password</a>
                 </form>
             </div>
         </div>
-        <div id="side-image" class="border border-green-600 sm:hidden">
-            <img src="" alt="side image">
+        <div id="side-image" class="hidden md:block max-w-2xl shadow-lg">
+            <img src="/resources/sideIMage.jpg" alt="side image">
         </div>
     </div>
 </body>
