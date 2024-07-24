@@ -4,9 +4,6 @@
   "description": "Designed a LoginForm using Tailwindcss",
   "main": "index.js",
   "scripts": {
-    "preinstall": "chmod +x node_modules/.bin/tailwindcss || true",
-    "dev": "npx tailwindcss -i ./src/input.css -o ./SourceCode/style.css --watch",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build:css": "npx tailwindcss -o ./SourceCode/style.css --minify",
     "build": "npm run build:css"
   },
